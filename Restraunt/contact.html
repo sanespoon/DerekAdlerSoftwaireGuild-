@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+    Name: Your Name 
+    Date Created: Today's date 
+    Most recent revision:
+-->
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <hr />
+        <p style="display: inline; padding-right: 50px;"><a href="index.html">Home</a></p>
+        <p style="display: inline; padding-right: 50px;"> <a href="menu.html">Menu</a> </p>
+        <p style="display: inline"><a href="contact.html">Contact</a></p>
+        <hr />
+    </nav>
+
+    <section>
+
+        <h2>Information Request</h2>
+        <form action="submit.html" method="Post">
+
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name"><br />
+
+            <label for="email">Email:</label><br />
+            <input type="text" id="email" name="email"><br />
+
+            <label for="phone">Phone:</label><br />
+            <input type="text" id="phone" name="phone"><br />
+
+            <label for="contact">Reason for Inquiry:</label><br />
+            <select id="contact" name="contact">
+                <option value="default" selected>Catering</option>
+                <option value="afternoon">Private Party</option>
+                <option value="evening">Feedback</option>
+                <option value="morning">Other</option>
+            </select>
+            <br />
+            <label for="info">Additional Information</label><br />
+            <textarea id="info" name="info"></textarea><br />
+            <input type="submit" name="submit" value="Submit">
+
+
+            <legend>Have you Been to the Sweets Shop?
+                :</legend><br />
+            <input type="radio" id="choice1" name="no" value="no">
+            <label for="choice1">No</label><br />
+            <input type="radio" id="choice2" name="no" value="yes">
+            <label for="choice2">Yes</label></label><br />
+
+            <fieldset>
+                <legend>Best days to contact you</legend><br />
+                <label for="monday">M</label>
+                <input type="checkbox" id="M" name="contact" value="Monday">
+                <label for="tuesday">T</label>
+                <input type="checkbox" id="T" name="contact" value="Tuesday">
+                <label for="wednesday">W</label>
+                <input type="checkbox" id="W" name="contact" value="Wednesday">
+                <label for="thursday">Th</label>
+                <input type="checkbox" id="Th" name="contact" value="Thursday">
+                <label for="friday">F</label>
+                <input type="checkbox" id="F" name="contact" value="Friday">
+            </fieldset>
+            <br/>
+            <input type="submit" value="Submit Request">
+
+        </form>
+
+    </section>
+
+
+    <footer> 
+        <hr/>
+        <h4>
+            <p style="text-align: center">Where We Are Located</p>
+            <p style="text-align: center">CandyLane ave.,Bashton,Idaho,4517</p>
+            <p style="text-align: center">265-645-7723</p> 
+
+        </h4>
+
+    </footer>
+</body>
+
+</html
