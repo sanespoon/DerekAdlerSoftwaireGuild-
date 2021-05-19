@@ -1,0 +1,54 @@
+body {font-family: "haeres", cursive;
+    text-align: center;}
+    
+    
+    
+    header, footer { 
+        text-align: center;
+        font-family: 'haeres', cursive;
+    
+    }
+
+    form {
+        font-weight: bold;
+    }
+    
+    
+    
+    .pill a{
+    font-family:'haeres', cursive;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-right: 200px;
+    margin-left: 230px;
+    }
+    
+    
+    nav a:hover {
+        color: black; font-weight: bold;
+    
+    }
+    
+    nav a:active {
+        font-weight: bold;
+    
+    }
+    
+    nav a:visited {
+      color:rgb(73, 4, 119);
+    }
+    
+    a { text-decoration: none;}
+    
+    th,td {text-align: center;
+    padding-left: 50px ;
+    color: rgb(168, 95, 5);}
+    
+    table { text-align: center;
+        margin:auto;
+    
+    }
+    .container { color: darkorange;}
+    
+    h5{ font-weight: bolder;}

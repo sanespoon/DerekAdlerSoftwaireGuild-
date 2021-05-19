@@ -7,24 +7,96 @@
 <html lang="en">
 
 <head>
-    <title>Derek's Sweets</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+
+    <div class="container">
+        <div class="jumbotron">
+          <h1>GRAND OPENING!!!!!</h1>
+
+        </div>
+    
+    <style>
+        section {
+            background-color:brown
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Derek's Sweets</h1>
     </header>
-
     <nav>
-        <hr />
-        <p style="display: inline; padding-right: 50px;"><a href="index.html">Home</a></p>
-        <p style="display: inline; padding-right: 50px;"> <a href="menu.html">Menu</a> </p>
-        <p style="display: inline"><a href="contact.html">Contact</a></p>
-        <hr />
-    </nav>
+        <ul class="nav nav-pills">
 
-    <a href="image/cherries.jpg"><img src="images/cherries.jpg" alt="Cherries"
-            style="width: 400px; height: 150px; text-align: center;" /></a>
+
+            <li><a href="Index.html"> <button class="btn" style="background-color: darkorange;" ><i class="fa fa-home"></i></button></li></a></li>
+            <li class="active"><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+ </nav>
+   
+    <section style="color:aqua">
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/cherries.jpg" alt="Cherries" style="text-align:center; padding-left: 200px;" width="1000px" > 
+                <div class="carousel-caption">
+                  <h2>GRAND OPENING!</h2> 
+                  <p><H3>Derek's Sweets</H3></p>
+                </div>
+              </div>
+    
+              <div class="item">
+                <img src="images/hot.webp" alt="Hot Chocolate" style="text-align:center; padding-left: 200px;" width="1000px">
+                <div class="carousel-caption">
+                  <p style= "background-color:black";></p> <h3>DRINK OF THE WEEK!</h3>
+                  <p><h3>Free </h3></p>
+                </div>
+              </div>
+    
+              <div class="item">
+                <img src="images/root.jpg" alt="Rootbeer Float" style="text-align:center; padding-left: 200px;" width="1000px">
+                <div class="carousel-caption">
+                  <h3>A Delicious After Meal Bverage</h3>
+                  <p>Pick any Ice Cream to Top it Off</p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+              </a>
+
+        <div class="row">
+            <article id="Derek">
+                <h2><p>Derek's Sweets</p></h2>
+        
+
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique mi quis euismod luctus. Quisque id
         luctus nisl.
         Pellentesque lacinia interdum dolor sed scelerisque. Duis turpis eros, eleifend nec nulla eget, convallis
@@ -44,6 +116,8 @@
     </p>
 
     <hr />
+    </section>
+
 
     <footer>
         <h4>

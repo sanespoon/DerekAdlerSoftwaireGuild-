@@ -7,7 +7,23 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+        body {background-color: lightblue;}
+        table {
+    border-collapse: collapse; }
+
+    body {text-align:center;}
+
+    </style>
 </head>
 
 <body>
@@ -16,12 +32,14 @@
     </header>
 
     <nav>
-        <hr />
-        <p style="display: inline; padding-right: 50px;"><a href="index.html">Home</a></p>
-        <p style="display: inline; padding-right: 50px;"> <a href="menu.html">Menu</a> </p>
-        <p style="display: inline"><a href="contact.html">Contact</a></p>
-        <hr />
-    </nav>
+        <ul class="nav nav-pills">
+
+
+            <li><a href="Index.html"> <button class="btn" style="background-color: darkorange;" ><i class="fa fa-home"></i></button></li></a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+
+ </nav>
 
     <section>
 
@@ -29,16 +47,16 @@
         <form action="submit.html" method="Post">
 
             <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name"><br />
+            <input type="text" id="name" name="name" value="" required><br />
 
             <label for="email">Email:</label><br />
-            <input type="text" id="email" name="email"><br />
+            <input type="text" id="email" name="email" value="" required ><br />
 
             <label for="phone">Phone:</label><br />
-            <input type="text" id="phone" name="phone"><br />
+            <input type="text" id="phone" name="phone" value="" required><br />
 
             <label for="contact">Reason for Inquiry:</label><br />
-            <select id="contact" name="contact">
+            <select id="contact" name="contact" value="" required>
                 <option value="default" selected>Catering</option>
                 <option value="afternoon">Private Party</option>
                 <option value="evening">Feedback</option>
@@ -52,9 +70,9 @@
 
             <legend>Have you Been to the Sweets Shop?
                 :</legend><br />
-            <input type="radio" id="choice1" name="no" value="no">
+            <input type="radio" id="choice1" name="no" value="no" value="" required>
             <label for="choice1">No</label><br />
-            <input type="radio" id="choice2" name="no" value="yes">
+            <input type="radio" id="choice2" name="no" value="yes" value="" required>
             <label for="choice2">Yes</label></label><br />
 
             <fieldset>
