@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+    Name: Your Name 
+    Date Created: Today's date 
+    Most recent revision:
+-->
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+        body {background-color: lightblue;}
+        table {
+    border-collapse: collapse; }
+
+    body {text-align:center;}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <ul class="nav nav-pills">
+
+
+            <li><a href="Index.html"> <button class="btn" style="background-color: darkorange;" ><i class="fa fa-home"></i></button></li></a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+
+ </nav>
+
+    <section>
+
+        <h2>Information Request</h2>
+        <form action="submit.html" method="Post">
+
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" value="" required><br />
+
+            <label for="email">Email:</label><br />
+            <input type="text" id="email" name="email" value="" required ><br />
+
+            <label for="phone">Phone:</label><br />
+            <input type="text" id="phone" name="phone" value="" required><br />
+
+            <label for="contact">Reason for Inquiry:</label><br />
+            <select id="contact" name="contact" value="" required>
+                <option value="default" selected>Catering</option>
+                <option value="afternoon">Private Party</option>
+                <option value="evening">Feedback</option>
+                <option value="morning">Other</option>
+            </select>
+            <br />
+            <label for="info">Additional Information</label><br />
+            <textarea id="info" name="info"></textarea><br />
+            <input type="submit" name="submit" value="Submit">
+
+
+            <legend>Have you Been to the Sweets Shop?
+                :</legend><br />
+            <input type="radio" id="choice1" name="no" value="no" value="" required>
+            <label for="choice1">No</label><br />
+            <input type="radio" id="choice2" name="no" value="yes" value="" required>
+            <label for="choice2">Yes</label></label><br />
+
+            <fieldset>
+                <legend>Best days to contact you</legend><br />
+                <label for="monday">M</label>
+                <input type="checkbox" id="M" name="contact" value="Monday">
+                <label for="tuesday">T</label>
+                <input type="checkbox" id="T" name="contact" value="Tuesday">
+                <label for="wednesday">W</label>
+                <input type="checkbox" id="W" name="contact" value="Wednesday">
+                <label for="thursday">Th</label>
+                <input type="checkbox" id="Th" name="contact" value="Thursday">
+                <label for="friday">F</label>
+                <input type="checkbox" id="F" name="contact" value="Friday">
+            </fieldset>
+            <br/>
+            <input type="submit" value="Submit Request">
+
+        </form>
+
+    </section>
+
+
+    <footer> 
+        <hr/>
+        <h4>
+            <p style="text-align: center">Where We Are Located</p>
+            <p style="text-align: center">CandyLane ave.,Bashton,Idaho,4517</p>
+            <p style="text-align: center">265-645-7723</p> 
+
+        </h4>
+
+    </footer>
+</body>
+
+</html
